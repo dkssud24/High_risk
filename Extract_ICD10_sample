@@ -1,0 +1,7 @@
+for a in {A..Z};do
+	for b in {0..9};do
+		for c in {0..9};do
+			grep -w -f /BiO/Hyein/90Traits/BT/QT_BT/2nd_validation_GWAS/66_ICD10/00_list/$a$b$c /BiO/hae/phase2/phase3/phase4/phase5/55_fff/__Data_Extract/00_root_ICD10.csv > $a$b$c
+		done
+	done
+done
